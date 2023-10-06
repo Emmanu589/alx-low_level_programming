@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * array_ramge - creates an array of integers
+ * array_ramge - creates an array of integers.
  * @min: mimimum range of values stored
  * @max: maximum range of values stored
  *
