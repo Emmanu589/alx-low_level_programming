@@ -31,4 +31,3 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
         int len, i;
- 
