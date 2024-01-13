@@ -1,17 +1,14 @@
 #include <stdio.h>
+
 /**
- * main - prints all args content
- * @argc: argument count
- * @argv: argument vector
- * Return: Always zero
- *
- */
-int main(int argc, char *argv[])
+*main - a program that prints its own name
+*@argc: argument count
+*@argv: argument vector
+*Return: 0
+*/
+
+int main(int argc, char *argv[]__attribute__((unused)))
 {
-	int i;
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
-	return (0);
+printf("%d\n", argc - 1);
+return (0);
 }
